@@ -1,0 +1,97 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+.ct_subtitle {
+    min-height: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    width: 100%;
+    margin: 25px 10px;
+    color: #3498db;
+}
+
+/* Content*/
+section {
+    width: 100%;
+    border: 1px solid;
+}
+
+.ct_content {
+    width: 40%;
+    margin: auto;
+    border: 1px solid #2e8eb4;
+    border-radius: 25px; /* 둥근 모서리 */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+th {
+    text-align: center; /* 가운데 정렬 */
+    padding: 15px; /* 안쪽 여백 */
+}
+
+.name-result {
+    margin: 30px auto;
+    font-size: 30px; /* 제목 폰트 크기 조절 */
+    font-weight: bold; /* 제목 볼드체 */
+    border: 1px solid #2e8eb4;
+    border-radius: 25px; /* 둥근 모서리 */
+    color: #fff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #3498db;
+    width: 630px;
+}
+
+.result-list {
+    margin: 50px 0px 0px 0px;
+
+}
+
+.prod-card {
+    border-radius: 25px;
+}
+
+td label {
+    margin: 0 20px 0 0;
+    background-color: #3498db; /* 파랑 배경색 */
+    border-radius: 10px; /* 둥근 모서리 */
+    padding: 10px; /* 내용과 경계 사이의 간격 */
+    color: #fff; /* 텍스트 색상 */
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.styled-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    color: #2e8eb4;
+    border: 1px solid #2e8eb4;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+
+.styled-button:hover {
+    background-color: #3498db;
+    color: white;
+}

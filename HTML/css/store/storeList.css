@@ -1,0 +1,93 @@
+/* 전체 페이지 영역 */
+.ct_main {
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 20px;
+  /* background-color: #34315e; */
+  width: 100%;
+}
+/* 상품 카테고리 영역 */
+.ct_cate-wrap {
+  display: flex;
+  justify-content: space-between;
+  background-color: #34315e;
+  border: none;
+}
+.ct_cate-title {
+  width: 20%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+.ct_cate-title:nth-child(1) {
+  background-color: rgb(147, 178, 206);
+}
+.ct_cate-title:nth-child(1) > a {
+  color: #34315e;
+}
+.ct_cate-title > a {
+  color: aliceblue;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+/* 상품 row 영역 */
+.prod-row {
+  display: flex;
+  padding: 4.8px;
+  width: 100%;
+  justify-content: space-between;
+}
+.prod-wrap {
+  margin-top: 100px;
+  padding: 5px;
+  box-shadow: 2px 3px 5px 0px gray;
+}
+
+/* 상품 썸네일 이미지*/
+.prod-card {
+  border-radius: 15px;
+  width: 300px;
+}
+.card-title {
+  text-align: center;
+}
+.card-title2 {
+  text-align: center;
+  border: 1px solid aqua;
+  width: 80%;
+  margin: auto;
+}
+.card-title2 > p:nth-child(2),
+.card-title2 > p:nth-child(3),
+.card-title2 > p:nth-child(4),
+.card-title2 > p:nth-child(5) {
+  text-align: left;
+}
+
+/* 검색어 입력바 */
+.search-box {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  font-size: medium;
+  padding-left: 15px;
+  font-weight: bold;
+}
+/* 검색창 영역 */
+.search-bar {
+  border-radius: 10px;
+  position: relative;
+}
+/* 검색창 돋보기 아이콘 */
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translate(-50%, -50%);
+}
+/* 해시태그 */
+.hashtag-bar > a {
+  margin-right: 10px;
+  font-weight: bold;
+}
